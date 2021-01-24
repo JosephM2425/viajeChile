@@ -1,0 +1,28 @@
+.pageBody{
+    background-color: black;
+}
+
+hr{
+    background-color: #17a3b8;
+}
+
+.navbar-dark{
+    position: absolute;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white ;
+}
+
+.logotipe{
+    width: 114px;
+    height: 33px;
+}
+
+.carousel img {
+    max-height: 95vh;
+}
+
+footer{
+    background-color: #17a3b8;
+}
