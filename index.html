@@ -1,15 +1,22 @@
 <!doctype html>
 <html lang="es">
-
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Joseph Murillo">
+    <meta name="description" content="Agencia de viajes Chile">
+    <meta name="keywords" content="Paisajes, eventos, turismo, chile">
 
-    <!-- Bootstrap CSS -->
+    <!--Google Foms-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS v4.6.0 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
+    <!--FontAwesome v5.6.3-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">    
 
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -66,9 +73,9 @@
         </div>
     <header>
 
-    <section id="aboutUs" class="pageBody pb-4">
+    <section id="aboutUs" class="pageBody pb-4 d-none d-sm-none d-md-block">
         <div class="container-fluid text-center text-light px-5">
-            <h2 class="pt-5 pb-1">Quiénes Somos</h2>
+            <h2 class="pt-5 pb-1 font-weight-bold">Quiénes Somos</h2>
             <hr>
             <div class="row">
                 <div class="col">
@@ -102,33 +109,33 @@
 
     <section id="trends" class="pageBody pb-2">
         <div class="container-fluid text-left text-light py-5">
-            <h2 class="pt-5 pb-1 text-center">Destacados</h2>
+            <h2 class="pt-5 pb-1 text-center font-weight-bold">Destacados</h2>
             <hr>
             <div class="card-deck px-5">
                 <div class="card">
-                    <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <a data-toggle="tooltip" data-placement="top" title="Lago y montañas"><img src="assets/img/card1.jpg" class="card-img-top" alt="Imagen Viajes chile 1"></a>
+                    <div class="card-body font-weight-light">
                       <h5 class="card-title font-weight-normal">Lorem ipsum dolor sit amet.</h5>
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas assumenda dolore neque recusandae aliquid error tempore consectetur iusto, quo vel, rerum nisi eligendi consequatur amet ullam magni doloribus molestias quod libero dicta quam sunt perferendis. Aliquid iure ad necessitatibus hic?</p>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <a data-toggle="tooltip" data-placement="top" title="Montaña"><img src="assets/img/card2.jpg" class="card-img-top" alt="Imagen Viajes chile 2"></a>
+                    <div class="card-body font-weight-light">
                       <h5 class="card-title font-weight-normal">Lorem ipsum dolor sit amet.</h5>
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas assumenda dolore neque recusandae aliquid error tempore consectetur iusto, quo vel, rerum nisi eligendi consequatur amet ullam magni doloribus molestias quod libero dicta quam sunt perferendis. Aliquid iure ad necessitatibus hic?</p>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <a data-toggle="tooltip" data-placement="top" title="Río"><img src="assets/img/card3.jpg" class="card-img-top" alt="Imagen Viajes chile 3"></a>
+                    <div class="card-body font-weight-light">
                       <h5 class="card-title font-weight-normal">Lorem ipsum dolor sit amet.</h5>
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas assumenda dolore neque recusandae aliquid error tempore consectetur iusto, quo vel, rerum nisi eligendi consequatur amet ullam magni doloribus molestias quod libero dicta quam sunt perferendis. Aliquid iure ad necessitatibus hic?</p>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <a data-toggle="tooltip" data-placement="top" title="Bosque"><img src="assets/img/card4.jpg" class="card-img-top" alt="Imagen Viajes chile 4"></a>
+                    <div class="card-body font-weight-light">
                       <h5 class="card-title font-weight-normal">Lorem ipsum dolor sit amet.</h5>
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas assumenda dolore neque recusandae aliquid error tempore consectetur iusto, quo vel, rerum nisi eligendi consequatur amet ullam magni doloribus molestias quod libero dicta quam sunt perferendis. Aliquid iure ad necessitatibus hic?</p>
                     </div>
@@ -138,19 +145,19 @@
     </section>
 
 
-    <section id="contact" class="pageBody">
+    <section id="contact" class="pageBody pb-4">
         <div class="container-fluid text-center text-light px-5">
-            <h2>Contacto</h2>
+            <h2 class="font-weight-bold">Contacto</h2>
             <hr>
-            <h2>FORMULARIO</h2>
+            <div class="typeform-widget" data-url="https://form.typeform.com/to/ewRPWrd9?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
         </div>
     </section>
 
     <footer class="text-center text-light">
-        <div class="container">
+        <div class="container pt-2">
             <div class="row">
                 <div class="col">
-                    <h2>VIAJES CHILE</h2>
+                    <h2 class="font-weight-bold">VIAJES CHILE</h2>
                 </div>
                 <div class="col">
                     <i class="fab fa-github-square fa-3x px-2"></i>
@@ -162,10 +169,6 @@
         </div>
     </footer>
 
-
-
-
-
             <!-- Optional JavaScript; choose one of the two! -->
 
             <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
@@ -175,13 +178,5 @@
                 integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
                 crossorigin="anonymous"></script>
             <script src="assets/js/main.js"></script>
-
-            <!-- Option 2: Separate Popper and Bootstrap JS -->
-            <!--
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
-    -->
 </body>
-
 </html>
